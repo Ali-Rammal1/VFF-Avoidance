@@ -1,0 +1,15 @@
+# AvoidanceNode configuration parameters
+scan_topic: "/scan"
+cmd_vel_topic: "/cmd_vel"
+debug_marker_topic: "/vff_debug"
+
+# VFF gains
+attractive_gain: 1
+repulsive_gain: 0.35
+
+# Safe speed limits
+max_linear_speed: 0.113
+max_angular_speed: 0.28
+
+# Laser scan timeout 
+scan_timeout: 2.0
