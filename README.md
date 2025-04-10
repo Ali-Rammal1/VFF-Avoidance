@@ -1,4 +1,4 @@
-# VFF-Avoidance-Ali-Larissa
+# VFF-Avoidance
 vff_avoidance is a ROS 2 package that implements an obstacle avoidance strategy for mobile robots using a Virtual Force Field (VFF) algorithm. The node computes attractive and repulsive vectors based on LaserScan data to safely steer the robot away from obstacles while moving forward.
 Features
 
@@ -40,6 +40,4 @@ To run the node in simulation along with Gazebo and TurtleBot3, use the provided
 
 ros2 launch vff_avoidance avoidance_vff_gazebo.launch.py
 
-Authors:
-Ali Rammal 
-Larissa Azar
+
